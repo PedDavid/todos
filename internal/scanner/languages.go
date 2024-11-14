@@ -188,7 +188,7 @@ var LanguagesConfig = map[string]*Config{
 			},
 		},
 	},
-    "Markdown": {
+	"Markdown": {
 		LineComments: []LineCommentConfig{
 			{
 				Start:      []rune{"[//]: #"},
@@ -196,7 +196,7 @@ var LanguagesConfig = map[string]*Config{
 		},
 		MultilineComments: nil,
 		Strings: cStrings
-	}
+	},
 	"Erlang": {
 		LineComments: []LineCommentConfig{
 			{Start: []rune{'%'}},

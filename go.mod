@@ -1,4 +1,4 @@
-module github.com/ianlewis/todos
+module github.com/PedDavid/todos
 
 go 1.23
 
